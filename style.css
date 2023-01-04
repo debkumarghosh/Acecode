@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+    font-family: cursive;
 
 }
 
@@ -18,42 +18,28 @@
     justify-content: center;
 }
 nav{
+    background-color: rgb(199, 187, 188);
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 8%;
+    padding: 10px 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 nav>ul>li{
+    
     list-style: none;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
+    
 
 }
 nav>ul>li>a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(2, 0, 0);
     font-size: 17px;
-    
-}
-.submenu{
-    background-color: transparent;
-    position: absolute;
-    width: 120px;
-    opacity: 0;
-    transition: 0.3s;
-    visibility: hidden;
-    
-    
-}
-.submenu li{
-    display: block;
-    padding: 12px;
-    font-size: 20px;
-    
     
 }
 nav>ul>li:hover .submenu{
@@ -61,19 +47,14 @@ nav>ul>li:hover .submenu{
     visibility: visible;
     
 }
-.submenu li a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
-
 
 .content{
     text-align: center;
     
+    
 }
 .content h1{
-    font-size: 160px;
+    font-size: 130px;
     color: #fff;
     font-weight: 600;
     transition: 0.5s;
@@ -96,6 +77,7 @@ nav>ul>li:hover .submenu{
     margin-top: 20px;
 }
 .back-video{
+    background-blend-mode: darken;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -115,7 +97,7 @@ nav>ul>li:hover .submenu{
 }
 
 .cpro{
-    background-image: url(c.webp);
+    background-image: url(bestback.webp);
     background-attachment: fixed;
     background-size: cover;
     
@@ -124,32 +106,43 @@ nav>ul>li:hover .submenu{
     padding: 240px 130px 100px  ;
     text-align: center;
     font-size: 80px;
-    color: #fff;
+    color: rgb(27, 3, 3);
     font-weight: 400;
 }
 .cpro h1:hover{
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 2px rgb(58, 8, 8);
     color: transparent;
     transition: 1s;
 
 }
 .cpro p{
+    background-color: azure;
     line-height: 50px;
     padding: 10px;
     text-decoration: none;
     text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 20px;
-    color: #fff;
-    font-weight: 100;
+    color: rgb(10, 6, 6);
+    font-weight: 200;
 }
 .cpro h2{
     text-decoration: underline;
-    color: #fff;
+    color: rgb(61, 6, 6);
     padding: 60px 50px;
     font-size: 40px;
 }
+.programs ul li a{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    color: rgb(61, 6, 6);
+    font-size: 40px;
+    
+}
 .second{
-    background-image: url(c++.jpg);
+    background-image: url(bestback.webp);
     background-attachment: fixed;
     background-size: cover;
     
@@ -158,12 +151,12 @@ nav>ul>li:hover .submenu{
     padding: 240px 130px 100px  ;
     text-align: center;
     font-size: 80px;
-    color: #fff;
+    color: rgb(11, 9, 9);
     font-weight: 400;
     
 }
 .second h1:hover{
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 2px rgb(7, 6, 6);
     color: transparent;
     transition: 1s;
     
@@ -171,29 +164,31 @@ nav>ul>li:hover .submenu{
 }
 .second h3{
     padding: 10px 40px;
-    
     font-size: 50px;
-    color: #fff;
+    color: rgb(12, 9, 9);
     font-weight: 100;
     text-decoration: underline;
 }
 .second p{
+    background-color: azure;
+    margin-left: 50px;
+    margin-right: 50px;
     line-height: 60px;
     padding: 30px;
     text-decoration: none;
     text-align: left;
     font-size: 20px;
-    color: #fff;
+    color: rgb(12, 9, 9);
     font-weight: 100;
 }
 .second h2{
     text-decoration: underline;
-    color: #fff;
+    color: rgb(13, 7, 7);
     padding: 60px 50px;
     font-size: 40px;
 }
 .jvpro{
-    background-image: url(wp2527107.webp);
+    background-image: url(bestback.webp);
     background-attachment: fixed;
     background-size: cover
 }
@@ -201,31 +196,37 @@ nav>ul>li:hover .submenu{
     padding: 240px 130px 100px  ;
     text-align: center;
     font-size: 80px;
-    color: #fff;
+    color: rgb(11, 9, 9);
     font-weight: 400;
 }
 .jvpro h1:hover{
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 2px rgb(12, 11, 11);
     color: transparent;
     transition: 2s;
     
 
 }
 .jvpro p{
+    background-color: azure;
+    margin-left: 50px;
+    margin-right: 50px;
     line-height: 60px;
     padding: 30px;
     text-decoration: none;
     text-align: left;
     font-size: 20px;
-    color: #fff;
+    color: rgb(8, 6, 6);
     font-weight: 100;
 }
 .jvpro h3{
     padding: 10px 40px;
-    
+    margin-left: 50px;
     font-size: 40px;
-    color: #fff;
+    color: rgb(15, 7, 7);
     font-weight: 100;
     text-decoration: underline;
 }
-.
+.exp{
+    background-color: bisque;
+}
+
