@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>ACECODE</title>
+  <style>
+    /* CSS styling for the button */
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body bgcolor="#e6e6fa">
+    <div class="hero">
+    
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="first page.html">PROJECTS</a>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                
+            </ul>
+    
+        </nav>
+    </div>
+
+  <button onclick="downloadPDF()">Download PDF</button>
+  <script>
+    // JavaScript function to download the PDF file
+    function downloadPDF() {
+      var link = document.createElement("a");
+      link.href = "about essay.pdf";
+      link.download = "about essay.pdf";
+      link.click();
+    }
+  </script>
+</body>
+</html>
